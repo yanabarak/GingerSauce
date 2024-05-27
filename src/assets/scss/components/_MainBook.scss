@@ -1,0 +1,76 @@
+.section-book {
+    padding: 88px 0px 0px 98px;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 1200px) {
+        min-height: unset;
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 60px 20px 40px 80px;
+    }
+
+    .content {
+        max-width: 550px;
+    }
+
+    &#versions-book,
+    &#logo-book,
+    &#values-book,
+    &#space-book,
+    &#palette-book,
+    &#fonts-book {
+        .content {
+            max-width: 660px;
+        }
+
+    }
+
+    &#proportions-book {
+        .content {
+            max-width: 720px;
+        }
+
+    }
+
+    .bg {
+        font-family: var(--mainFont);
+        color: #f2f2f2;
+        font-size: 629.97px;
+        font-weight: var(--mainFontWeight);
+        line-height: 482.97px;
+        text-align: left;
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .bg-img {
+        position: absolute;
+        z-index: -10;
+        left: -100px;
+        top: -150px;
+
+        svg {
+            fill: #F2F2F2;
+        }
+    }
+}
+
+#designer-book {
+    padding: 105px 93px 136px;
+    background: #F2F2F2;
+
+    .content {
+        max-width: 820px;
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 60px 20px 40px 80px;
+    }
+}
