@@ -2,7 +2,7 @@
   <div>
     <MainHeader @clicked="onClickChild" />
     <div class="container-fluid px-0">
-      <div class="wrapper d-flex align-items-stretch flex-column flex-md-row">
+      <div class="wrapper d-flex align-items-stretch flex-md-row">
         <MainSidebar
           :is_expanded="is_expanded"
           :active-section="activeSection"

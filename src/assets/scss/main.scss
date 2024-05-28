@@ -30,6 +30,7 @@
     src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
 }
 
+@import './base/additional';
 @import './base/_container.scss';
 @import './base/_common.scss';
 @import './base/_fs.scss';

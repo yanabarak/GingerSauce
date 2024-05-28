@@ -2,6 +2,14 @@
     --fontSize: 16px;
 }
 
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-bold {
+    font-weight: calc(var(--mainFontWeight) + 200);
+}
+
 .fs-18 {
     font-size: calc(var(--fontSize) * 1.125);
 }

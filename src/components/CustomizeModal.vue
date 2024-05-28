@@ -6,7 +6,7 @@
     aria-labelledby="customizeModalLabel"
     aria-hidden="true"
   >
-    <div class="modal-dialog modal-dialog-centered modal-xl modal-1000">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-1000">
       <div class="modal-content">
         <div class="modal-header position-relative pt-40 pb-4">
           <h1 class="modal-title fs-32 fw-bold text-center sec-font mx-auto" id="exampleModalLabel">

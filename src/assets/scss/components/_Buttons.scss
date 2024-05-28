@@ -67,3 +67,8 @@
         color: var(--main-color-book)
     }
 }
+
+.brandbooks {
+    font-weight: calc(var(--secFontWeight) + 100);
+    color: #000;
+}

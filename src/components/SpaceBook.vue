@@ -78,6 +78,7 @@
   }
   .space-2 {
     max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }

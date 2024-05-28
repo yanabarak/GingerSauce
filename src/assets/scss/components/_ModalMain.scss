@@ -71,9 +71,14 @@
 @media (min-width: 1200px) {
     .modal-1000 {
         --bs-modal-width: 1000px;
+        max-width: 1000px;
 
         .modal-body {
             padding: 0px 30px;
+        }
+
+        .modal-content {
+            border-radius: 28px;
         }
     }
 }

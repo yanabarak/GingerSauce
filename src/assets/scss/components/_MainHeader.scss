@@ -1,8 +1,9 @@
 nav.navbar.border-bottom {
     border-bottom: 1px solid var(--border-color);
-    padding: 14px 12px 14px 0px;
+    padding: 14px 0px 14px 0px;
     height: 69px;
     box-sizing: border-box;
+    z-index: 10000;
 
     .logo {
         width: calc(61px - 14px);
@@ -37,5 +38,20 @@ nav.navbar.border-bottom {
             opacity: 0;
             transition: 0.2s ease-in-out;
         }
+
+    }
+
+    .menu-toggle:focus {
+        outline: none;
+        color: var(--theme-color) !important;
+    }
+
+    .menu-toggle:focus {
+        fill: currentColor !important;
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 14px;
+
     }
 }

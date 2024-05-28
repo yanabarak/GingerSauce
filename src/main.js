@@ -1,5 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './popper';
+import './lib/turn';
+import './bootstrap';
+import './js/additionalBootstrap';
 import 'vue-select/dist/vue-select.css';
 
 import './assets/css/main.css';

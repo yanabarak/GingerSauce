@@ -50,6 +50,7 @@
   .proportions-1 {
     max-width: 100%;
     max-height: 200px;
+    width: 100%;
   }
 }
 </style>

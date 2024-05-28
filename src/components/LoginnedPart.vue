@@ -12,13 +12,15 @@
         <div class="title">Expiration date</div>
         <div class="date">29.10.2024</div>
       </div>
-      <MyBrandbooks />
+      <!-- <MyBrandbooks /> -->
+      <SubMenu />
     </div>
   </div>
 </template>
 <script setup>
 import CustomizePart from './CustomizePart.vue';
-import MyBrandbooks from './MyBrandbooks.vue';
+// import MyBrandbooks from './MyBrandbooks.vue';
+import SubMenu from './SubMenu.vue';
 </script>
 <style scoped>
 .expir-date .title {
