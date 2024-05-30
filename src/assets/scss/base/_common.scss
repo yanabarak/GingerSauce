@@ -36,3 +36,9 @@ hr.divider {
 .vc-chrome {
     font-family: var(--secFont) !important;
 }
+
+body[style*="theme-color"] {
+    background-color: transparent !important;
+    background-image: none;
+    overflow: auto;
+}

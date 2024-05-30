@@ -5,7 +5,7 @@
 </template>
 <style scoped>
 #title-book {
-  background-color: var(--main-color-book);
+  background-color: var(--theme-color);
   padding: 270px 0px 60px 90px;
 }
 h1 {

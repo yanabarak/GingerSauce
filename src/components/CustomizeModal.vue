@@ -15,7 +15,7 @@
           <button
             type="button"
             class="btn-close position-absolute"
-            data-bs-dismiss="modal"
+            data-dismiss="modal"
             aria-label="Close"
           ></button>
         </div>
@@ -141,9 +141,9 @@
         <div class="modal-footer border-0 justify-content-center py-4 mb-2">
           <button
             class="btn main-btn px-5"
-            data-bs-dismiss="modal"
             aria-label="Close"
             @click="saveChanges"
+            data-dismiss="modal"
           >
             Apply changes
           </button>
