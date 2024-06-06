@@ -26,790 +26,788 @@
   font-display: swap;
   src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
 }
-.mh-100 {
+.parentClass .mh-100 {
   max-height: 100% !important;
 }
 
-.vh-100 {
+.parentClass .vh-100 {
   height: 100vh !important;
 }
 
-.min-vh-100 {
+.parentClass .min-vh-100 {
   min-height: 100vh !important;
 }
 
-.flex-fill {
+.parentClass .flex-fill {
   flex: 1 1 auto !important;
 }
 
-.flex-row {
+.parentClass .flex-row {
   flex-direction: row !important;
 }
 
-.flex-column {
+.parentClass .flex-column {
   flex-direction: column !important;
 }
 
-.flex-row-reverse {
+.parentClass .flex-row-reverse {
   flex-direction: row-reverse !important;
 }
 
-.flex-column-reverse {
+.parentClass .flex-column-reverse {
   flex-direction: column-reverse !important;
 }
 
-.flex-grow-0 {
+.parentClass .flex-grow-0 {
   flex-grow: 0 !important;
 }
 
-.flex-grow-1 {
+.parentClass .flex-grow-1 {
   flex-grow: 1 !important;
 }
 
-.flex-shrink-0 {
+.parentClass .flex-shrink-0 {
   flex-shrink: 0 !important;
 }
 
-.flex-shrink-1 {
+.parentClass .flex-shrink-1 {
   flex-shrink: 1 !important;
 }
 
-.flex-wrap {
+.parentClass .flex-wrap {
   flex-wrap: wrap !important;
 }
 
-.flex-nowrap {
+.parentClass .flex-nowrap {
   flex-wrap: nowrap !important;
 }
 
-.flex-wrap-reverse {
+.parentClass .flex-wrap-reverse {
   flex-wrap: wrap-reverse !important;
 }
 
-.gap-0 {
+.parentClass .gap-0 {
   gap: 0 !important;
 }
 
-.gap-1 {
+.parentClass .gap-1 {
   gap: 0.25rem !important;
 }
 
-.gap-2 {
+.parentClass .gap-2 {
   gap: 0.5rem !important;
 }
 
-.gap-3 {
+.parentClass .gap-3 {
   gap: 1rem !important;
 }
 
-.gap-4 {
+.parentClass .gap-4 {
   gap: 1.5rem !important;
 }
 
-.gap-5 {
+.parentClass .gap-5 {
   gap: 3rem !important;
 }
 
-.justify-content-start {
+.parentClass .justify-content-start {
   justify-content: flex-start !important;
 }
 
-.justify-content-end {
+.parentClass .justify-content-end {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
+.parentClass .justify-content-center {
   justify-content: center !important;
 }
 
-.justify-content-between {
+.parentClass .justify-content-between {
   justify-content: space-between !important;
 }
 
-.justify-content-around {
+.parentClass .justify-content-around {
   justify-content: space-around !important;
 }
 
-.justify-content-evenly {
+.parentClass .justify-content-evenly {
   justify-content: space-evenly !important;
 }
 
-.align-items-start {
+.parentClass .align-items-start {
   align-items: flex-start !important;
 }
 
-.align-items-end {
+.parentClass .align-items-end {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.parentClass .align-items-center {
   align-items: center !important;
 }
 
-.align-items-baseline {
+.parentClass .align-items-baseline {
   align-items: baseline !important;
 }
 
-.align-items-stretch {
+.parentClass .align-items-stretch {
   align-items: stretch !important;
 }
 
-.align-content-start {
+.parentClass .align-content-start {
   align-content: flex-start !important;
 }
 
-.align-content-end {
+.parentClass .align-content-end {
   align-content: flex-end !important;
 }
 
-.align-content-center {
+.parentClass .align-content-center {
   align-content: center !important;
 }
 
-.align-content-between {
+.parentClass .align-content-between {
   align-content: space-between !important;
 }
 
-.align-content-around {
+.parentClass .align-content-around {
   align-content: space-around !important;
 }
 
-.align-content-stretch {
+.parentClass .align-content-stretch {
   align-content: stretch !important;
 }
 
-.align-self-auto {
+.parentClass .align-self-auto {
   align-self: auto !important;
 }
 
-.align-self-start {
+.parentClass .align-self-start {
   align-self: flex-start !important;
 }
 
-.align-self-end {
+.parentClass .align-self-end {
   align-self: flex-end !important;
 }
 
-.align-self-center {
+.parentClass .align-self-center {
   align-self: center !important;
 }
 
-.align-self-baseline {
+.parentClass .align-self-baseline {
   align-self: baseline !important;
 }
 
-.align-self-stretch {
+.parentClass .align-self-stretch {
   align-self: stretch !important;
 }
 
-.order-first {
+.parentClass .order-first {
   order: -1 !important;
 }
 
-.order-0 {
+.parentClass .order-0 {
   order: 0 !important;
 }
 
-.order-1 {
+.parentClass .order-1 {
   order: 1 !important;
 }
 
-.order-2 {
+.parentClass .order-2 {
   order: 2 !important;
 }
 
-.order-3 {
+.parentClass .order-3 {
   order: 3 !important;
 }
 
-.order-4 {
+.parentClass .order-4 {
   order: 4 !important;
 }
 
-.order-5 {
+.parentClass .order-5 {
   order: 5 !important;
 }
 
-.order-last {
+.parentClass .order-last {
   order: 6 !important;
 }
 
-.m-0 {
+.parentClass .m-0 {
   margin: 0 !important;
 }
 
-.m-1 {
+.parentClass .m-1 {
   margin: 0.25rem !important;
 }
 
-.m-2 {
+.parentClass .m-2 {
   margin: 0.5rem !important;
 }
 
-.m-3 {
+.parentClass .m-3 {
   margin: 1rem !important;
 }
 
-.m-4 {
+.parentClass .m-4 {
   margin: 1.5rem !important;
 }
 
-.m-5 {
+.parentClass .m-5 {
   margin: 3rem !important;
 }
 
-.m-auto {
+.parentClass .m-auto {
   margin: auto !important;
 }
 
-.mx-0 {
+.parentClass .mx-0 {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
 
-.mx-1 {
+.parentClass .mx-1 {
   margin-right: 0.25rem !important;
   margin-left: 0.25rem !important;
 }
 
-.mx-2 {
+.parentClass .mx-2 {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
 }
 
-.mx-3 {
+.parentClass .mx-3 {
   margin-right: 1rem !important;
   margin-left: 1rem !important;
 }
 
-.mx-4 {
+.parentClass .mx-4 {
   margin-right: 1.5rem !important;
   margin-left: 1.5rem !important;
 }
 
-.mx-5 {
+.parentClass .mx-5 {
   margin-right: 3rem !important;
   margin-left: 3rem !important;
 }
 
-.mx-auto {
+.parentClass .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
 }
 
-.my-0 {
+.parentClass .my-0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-.my-1 {
+.parentClass .my-1 {
   margin-top: 0.25rem !important;
   margin-bottom: 0.25rem !important;
 }
 
-.my-2 {
+.parentClass .my-2 {
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
 }
 
-.my-3 {
+.parentClass .my-3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
 }
 
-.my-4 {
+.parentClass .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
 
-.my-5 {
+.parentClass .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
 
-.my-auto {
+.parentClass .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
 
-.mt-0 {
+.parentClass .mt-0 {
   margin-top: 0 !important;
 }
 
-.mt-1 {
+.parentClass .mt-1 {
   margin-top: 0.25rem !important;
 }
 
-.mt-2 {
+.parentClass .mt-2 {
   margin-top: 0.5rem !important;
 }
 
-.mt-3 {
+.parentClass .mt-3 {
   margin-top: 1rem !important;
 }
 
-.mt-4 {
+.parentClass .mt-4 {
   margin-top: 1.5rem !important;
 }
 
-.mt-5 {
+.parentClass .mt-5 {
   margin-top: 3rem !important;
 }
 
-.mt-auto {
+.parentClass .mt-auto {
   margin-top: auto !important;
 }
 
-.me-0 {
+.parentClass .me-0 {
   margin-right: 0 !important;
 }
 
-.me-1 {
+.parentClass .me-1 {
   margin-right: 0.25rem !important;
 }
 
-.me-2 {
+.parentClass .me-2 {
   margin-right: 0.5rem !important;
 }
 
-.me-3 {
+.parentClass .me-3 {
   margin-right: 1rem !important;
 }
 
-.me-4 {
+.parentClass .me-4 {
   margin-right: 1.5rem !important;
 }
 
-.me-5 {
+.parentClass .me-5 {
   margin-right: 3rem !important;
 }
 
-.me-auto {
+.parentClass .me-auto {
   margin-right: auto !important;
 }
 
-.mb-0 {
+.parentClass .mb-0 {
   margin-bottom: 0 !important;
 }
 
-.mb-1 {
+.parentClass .mb-1 {
   margin-bottom: 0.25rem !important;
 }
 
-.mb-2 {
+.parentClass .mb-2 {
   margin-bottom: 0.5rem !important;
 }
 
-.mb-3 {
+.parentClass .mb-3 {
   margin-bottom: 1rem !important;
 }
 
-.mb-4 {
+.parentClass .mb-4 {
   margin-bottom: 1.5rem !important;
 }
 
-.mb-5 {
+.parentClass .mb-5 {
   margin-bottom: 3rem !important;
 }
 
-.mb-auto {
+.parentClass .mb-auto {
   margin-bottom: auto !important;
 }
 
-.ms-0 {
+.parentClass .ms-0 {
   margin-left: 0 !important;
 }
 
-.ms-1 {
+.parentClass .ms-1 {
   margin-left: 0.25rem !important;
 }
 
-.ms-2 {
+.parentClass .ms-2 {
   margin-left: 0.5rem !important;
 }
 
-.ms-3 {
+.parentClass .ms-3 {
   margin-left: 1rem !important;
 }
 
-.ms-4 {
+.parentClass .ms-4 {
   margin-left: 1.5rem !important;
 }
 
-.ms-5 {
+.parentClass .ms-5 {
   margin-left: 3rem !important;
 }
 
-.ms-auto {
+.parentClass .ms-auto {
   margin-left: auto !important;
 }
 
-.p-0 {
+.parentClass .p-0 {
   padding: 0 !important;
 }
 
-.p-1 {
+.parentClass .p-1 {
   padding: 0.25rem !important;
 }
 
-.p-2 {
+.parentClass .p-2 {
   padding: 0.5rem !important;
 }
 
-.p-3 {
+.parentClass .p-3 {
   padding: 1rem !important;
 }
 
-.p-4 {
+.parentClass .p-4 {
   padding: 1.5rem !important;
 }
 
-.p-5 {
+.parentClass .p-5 {
   padding: 3rem !important;
 }
 
-.px-0 {
+.parentClass .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
 
-.px-1 {
+.parentClass .px-1 {
   padding-right: 0.25rem !important;
   padding-left: 0.25rem !important;
 }
 
-.px-2 {
+.parentClass .px-2 {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
 
-.px-3 {
+.parentClass .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
-.px-4 {
+.parentClass .px-4 {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
 }
 
-.px-5 {
+.parentClass .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
 }
 
-.py-0 {
+.parentClass .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-.py-1 {
+.parentClass .py-1 {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
 }
 
-.py-2 {
+.parentClass .py-2 {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
 }
 
-.py-3 {
+.parentClass .py-3 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 
-.py-4 {
+.parentClass .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
 }
 
-.py-5 {
+.parentClass .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
 
-.pt-0 {
+.parentClass .pt-0 {
   padding-top: 0 !important;
 }
 
-.pt-1 {
+.parentClass .pt-1 {
   padding-top: 0.25rem !important;
 }
 
-.pt-2 {
+.parentClass .pt-2 {
   padding-top: 0.5rem !important;
 }
 
-.pt-3 {
+.parentClass .pt-3 {
   padding-top: 1rem !important;
 }
 
-.pt-4 {
+.parentClass .pt-4 {
   padding-top: 1.5rem !important;
 }
 
-.pt-5 {
+.parentClass .pt-5 {
   padding-top: 3rem !important;
 }
 
-.pe-0 {
+.parentClass .pe-0 {
   padding-right: 0 !important;
 }
 
-.pe-1 {
+.parentClass .pe-1 {
   padding-right: 0.25rem !important;
 }
 
-.pe-2 {
+.parentClass .pe-2 {
   padding-right: 0.5rem !important;
 }
 
-.pe-3 {
+.parentClass .pe-3 {
   padding-right: 1rem !important;
 }
 
-.pe-4 {
+.parentClass .pe-4 {
   padding-right: 1.5rem !important;
 }
 
-.pe-5 {
+.parentClass .pe-5 {
   padding-right: 3rem !important;
 }
 
-.pb-0 {
+.parentClass .pb-0 {
   padding-bottom: 0 !important;
 }
 
-.pb-1 {
+.parentClass .pb-1 {
   padding-bottom: 0.25rem !important;
 }
 
-.pb-2 {
+.parentClass .pb-2 {
   padding-bottom: 0.5rem !important;
 }
 
-.pb-3 {
+.parentClass .pb-3 {
   padding-bottom: 1rem !important;
 }
 
-.pb-4 {
+.parentClass .pb-4 {
   padding-bottom: 1.5rem !important;
 }
 
-.pb-5 {
+.parentClass .pb-5 {
   padding-bottom: 3rem !important;
 }
 
-.ps-0 {
+.parentClass .ps-0 {
   padding-left: 0 !important;
 }
 
-.ps-1 {
+.parentClass .ps-1 {
   padding-left: 0.25rem !important;
 }
 
-.ps-2 {
+.parentClass .ps-2 {
   padding-left: 0.5rem !important;
 }
 
-.ps-3 {
+.parentClass .ps-3 {
   padding-left: 1rem !important;
 }
 
-.ps-4 {
+.parentClass .ps-4 {
   padding-left: 1.5rem !important;
 }
 
-.ps-5 {
+.parentClass .ps-5 {
   padding-left: 3rem !important;
 }
 
 @media (min-width: 1200px) {
-  .sticky-xl-top {
+  .parentClass .sticky-xl-top {
     position: sticky;
     top: 0;
     z-index: 1020;
   }
 }
-.align-self-start {
+.parentClass .align-self-start {
   flex-grow: 0;
   height: -moz-fit-content;
   height: fit-content;
 }
 
-.z-1 {
+.parentClass .z-1 {
   z-index: 1;
 }
 
-.text-decoration-underline {
+.parentClass .text-decoration-underline {
   text-decoration: underline !important;
 }
 
 @media (min-width: 1900px) {
-  .container {
+  .parentClass .container {
     max-width: 1780px;
   }
 }
 
-.link {
+.parentClass .link {
   text-decoration: none;
 }
 
-a {
+.parentClass a {
   color: var(--main-color-book);
 }
 
-.list {
+.parentClass .list {
   list-style: none;
 }
 
-button {
+.parentClass button {
   cursor: pointer;
 }
 
-img {
+.parentClass img {
   display: block;
 }
 
-html {
-  height: 100%;
-}
-
-body {
+.parentClass {
   font-family: var(--secFont);
   min-height: 100%;
   font-weight: var(--secFontWeight);
 }
 
-hr.divider {
+.parentClass hr.divider {
   border-color: #F0F0F0;
   opacity: 1;
 }
 
-.vc-chrome {
+.parentClass .vc-chrome {
   font-family: var(--secFont) !important;
 }
 
-body[style*=theme-color] {
-  background-color: transparent !important;
-  background-image: none;
+body[style*=theme-color]:has(.parentClass) {
   overflow: auto;
+}
+
+.parentClass {
+  background-color: #fff !important;
 }
 
 :root {
   --fontSize: 16px;
 }
 
-.fw-500 {
+.parentClass .fw-500 {
   font-weight: 500;
 }
 
-.fw-bold {
+.parentClass .fw-bold {
   font-weight: calc(var(--mainFontWeight) + 200);
 }
 
-.fs-18 {
+.parentClass .fs-18 {
   font-size: calc(var(--fontSize) * 1.125);
 }
 
-.fs-22 {
+.parentClass .fs-22 {
   font-size: calc(var(--fontSize) * 1.375);
   /* 22 / 16 */
 }
 
-.fs-16 {
+.parentClass .fs-16 {
   font-size: var(--fontSize);
   /* 16 / 16 */
 }
 
-.fs-12 {
+.parentClass .fs-12 {
   font-size: calc(var(--fontSize) * 0.75);
   /* 12 / 16 */
 }
 
-.fs-14 {
+.parentClass .fs-14 {
   font-size: calc(var(--fontSize) * 0.875);
   /* 14 / 16 */
 }
 
-.fs-20 {
+.parentClass .fs-20 {
   font-size: calc(var(--fontSize) * 1.25);
   /* 20 / 16 */
 }
 
-.fs-24 {
+.parentClass .fs-24 {
   font-size: calc(var(--fontSize) * 1.5);
 }
 @media screen and (max-width: 992px) {
-  .fs-24 {
+  .parentClass .fs-24 {
     font-size: calc(var(--fontSize) * 1);
   }
 }
 
-.fs-28 {
+.parentClass .fs-28 {
   font-size: calc(var(--fontSize) * 1.75);
 }
 @media screen and (max-width: 992px) {
-  .fs-28 {
+  .parentClass .fs-28 {
     font-size: calc(var(--fontSize) * 1.17);
   }
 }
 
-.fs-32 {
+.parentClass .fs-32 {
   font-size: calc(var(--fontSize) * 2);
   /* 32 / 16 */
 }
 
-.fs-34 {
+.parentClass .fs-34 {
   font-size: calc(var(--fontSize) * 2.125);
 }
 @media screen and (max-width: 992px) {
-  .fs-34 {
+  .parentClass .fs-34 {
     font-size: calc(var(--fontSize) * 1.42);
   }
 }
 
-.mt-90 {
+.parentClass .mt-90 {
   margin-top: calc(var(--fontSize) * 5.625);
   /* 90 / 16 */
 }
 
-.mt-60 {
+.parentClass .mt-60 {
   margin-top: calc(var(--fontSize) * 3.75);
   /* 60 / 16 */
 }
 
-.mt-32 {
+.parentClass .mt-32 {
   margin-top: calc(var(--fontSize) * 2);
   /* 32 / 16 */
 }
 
-.mt-37 {
+.parentClass .mt-37 {
   margin-top: calc(var(--fontSize) * 2.3125);
   /* 37 / 16 */
 }
 
-.mb-32 {
+.parentClass .mb-32 {
   margin-bottom: calc(var(--fontSize) * 2);
   /* 32 / 16 */
 }
 
-.mb-40 {
+.parentClass .mb-40 {
   margin-bottom: calc(var(--fontSize) * 2.5);
   /* 40 / 16 */
 }
 
-.mb-50 {
+.parentClass .mb-50 {
   margin-bottom: calc(var(--fontSize) * 3.125);
   /* 50 / 16 */
 }
 
-.pt-40 {
+.parentClass .pt-40 {
   padding-block-start: calc(var(--fontSize) * 2.5) !important;
   /* 40 / 16 */
 }
 
-h1 {
+.parentClass h1 {
   font-family: var(--mainFont);
   font-size: calc(var(--fontSize) * 3.75);
   /* 60 / 16 */
@@ -818,13 +816,13 @@ h1 {
   text-align: left;
 }
 @media screen and (max-width: 992px) {
-  h1 {
+  .parentClass h1 {
     font-size: calc(var(--fontSize) * 2.5);
     /* 40 / 16 */
   }
 }
 
-h2 {
+.parentClass h2 {
   font-family: var(--mainFont);
   /* 60 / 16 */
   font-weight: var(--mainFontWeight);
@@ -833,17 +831,17 @@ h2 {
   color: #121434;
 }
 
-.me-36 {
+.parentClass .me-36 {
   margin-right: calc(var(--fontSize) * 2.25);
   /* 36 / 16 */
 }
 
-.me-40 {
+.parentClass .me-40 {
   margin-inline-end: calc(var(--fontSize) * 2.5);
   /* 40 / 16 */
 }
 
-.ms-40 {
+.parentClass .ms-40 {
   margin-inline-start: calc(var(--fontSize) * 2.5);
   /* 40 / 16 */
 }
@@ -859,15 +857,15 @@ h2 {
   --secFontWeight: 400;
 }
 
-.main-color {
+.parentClass .main-color {
   fill: var(--theme-color) !important;
 }
 
-.sec-color {
+.parentClass .sec-color {
   fill: var(--sec-color) !important;
 }
 
-.sec-font {
+.parentClass .sec-font {
   font-family: var(--secFont);
 }
 
@@ -901,56 +899,56 @@ h2 {
   background-color: var(--sec-color);
 }
 
-nav.navbar.border-bottom {
+.parentClass nav.navbar.border-bottom {
   border-bottom: 1px solid var(--border-color);
   padding: 14px 0px 14px 0px;
   height: 69px;
   box-sizing: border-box;
   z-index: 1060;
 }
-nav.navbar.border-bottom .logo {
+.parentClass nav.navbar.border-bottom .logo {
   width: 47px;
   transition: 0.2s ease-in-out;
 }
-nav.navbar.border-bottom .logo .logo_small {
+.parentClass nav.navbar.border-bottom .logo .logo_small {
   max-height: 40px;
   display: block;
   opacity: 1;
 }
-nav.navbar.border-bottom .logo .logo_full {
+.parentClass nav.navbar.border-bottom .logo .logo_full {
   display: none;
   opacity: 0;
   transition: 0.2s ease-in-out;
 }
-nav.navbar.border-bottom .logo.is_expanded {
+.parentClass nav.navbar.border-bottom .logo.is_expanded {
   width: 193px;
   margin-left: 14px;
 }
-nav.navbar.border-bottom .logo.is_expanded .logo_full {
+.parentClass nav.navbar.border-bottom .logo.is_expanded .logo_full {
   display: block;
   max-width: 160px;
   max-height: 40px;
   opacity: 1;
 }
-nav.navbar.border-bottom .logo.is_expanded .logo_small {
+.parentClass nav.navbar.border-bottom .logo.is_expanded .logo_small {
   display: none;
   opacity: 0;
   transition: 0.2s ease-in-out;
 }
-nav.navbar.border-bottom .menu-toggle:focus {
+.parentClass nav.navbar.border-bottom .menu-toggle:focus {
   outline: none;
   color: var(--theme-color) !important;
 }
-nav.navbar.border-bottom .menu-toggle:focus {
+.parentClass nav.navbar.border-bottom .menu-toggle:focus {
   fill: currentColor !important;
 }
 @media screen and (max-width: 768px) {
-  nav.navbar.border-bottom {
+  .parentClass nav.navbar.border-bottom {
     padding: 14px;
   }
 }
 
-aside {
+.parentClass aside {
   display: flex;
   flex-direction: column;
   border-right: 1px solid #E1E1E1;
@@ -963,33 +961,33 @@ aside {
   padding: 8px;
   transition: 0.2s ease-in-out;
 }
-aside .flex {
+.parentClass aside .flex {
   flex: 1 1 0%;
 }
-aside .logo {
+.parentClass aside .logo {
   margin-bottom: 1rem;
 }
-aside .logo img {
+.parentClass aside .logo img {
   width: 2rem;
 }
-aside .menu-item .text {
+.parentClass aside .menu-item .text {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
-aside .menu:first-child {
+.parentClass aside .menu:first-child {
   margin-top: 80px;
 }
-aside .menu {
+.parentClass aside .menu {
   margin: 0;
 }
-aside .menu > ul {
+.parentClass aside .menu > ul {
   list-style: none;
   padding: 0px;
 }
-aside .menu > ul > li:not(:last-child) {
+.parentClass aside .menu > ul > li:not(:last-child) {
   margin-bottom: 4px;
 }
-aside .menu .menu-item {
+.parentClass aside .menu .menu-item {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -999,23 +997,23 @@ aside .menu .menu-item {
   padding-left: 0px;
   min-height: 36px;
 }
-aside .menu .menu-item.active {
+.parentClass aside .menu .menu-item.active {
   box-shadow: 0 0 0 100px var(--main-color-book) inset;
   border-radius: 8px;
   color: #fff;
 }
-aside .menu .menu-item .menu-icon {
+.parentClass aside .menu .menu-item .menu-icon {
   fill: currentColor;
   margin-inline-start: 9px;
 }
-aside .menu .menu-item .icon.icon-menu-space,
-aside .menu .menu-item .icon.icon-menu-misuse,
-aside .menu .menu-item .icon.icon-menu-feature,
-aside .menu .menu-item .icon.icon-menu-palette {
+.parentClass aside .menu .menu-item .icon.icon-menu-space,
+.parentClass aside .menu .menu-item .icon.icon-menu-misuse,
+.parentClass aside .menu .menu-item .icon.icon-menu-feature,
+.parentClass aside .menu .menu-item .icon.icon-menu-palette {
   fill: none;
   stroke: currentColor;
 }
-aside .menu .menu-item .text {
+.parentClass aside .menu .menu-item .text {
   color: currentColor;
   transition: opacity 0.2s ease-in-out;
   transition-delay: 0s, 250ms;
@@ -1028,7 +1026,7 @@ aside .menu .menu-item .text {
   word-break: keep-all;
   white-space: nowrap;
 }
-aside .powered {
+.parentClass aside .powered {
   font-weight: var(--secFontWeight);
   line-height: 1.2;
   text-align: left;
@@ -1037,29 +1035,29 @@ aside .powered {
   font-size: 0px;
   opacity: 0;
 }
-aside .footer {
+.parentClass aside .footer {
   border-top: 1px solid rgba(0, 0, 0, 0.25) !important;
   margin: 0 -8px;
   padding: 16px 8px 8px;
 }
-aside.is_expanded {
+.parentClass aside.is_expanded {
   width: 220px;
 }
-aside.is_expanded .menu-item .text {
+.parentClass aside.is_expanded .menu-item .text {
   opacity: 1;
 }
-aside.is_expanded .powered {
+.parentClass aside.is_expanded .powered {
   font-size: 8px;
   opacity: 0.5;
 }
 @media screen and (max-width: 1200px) {
-  aside {
+  .parentClass aside {
     position: sticky;
     top: 0px;
   }
 }
 @media (max-width: 1024px) {
-  aside {
+  .parentClass aside {
     position: fixed;
     z-index: 99;
     top: 0px;
@@ -1068,20 +1066,20 @@ aside.is_expanded .powered {
 }
 
 @media screen and (max-height: 700px) {
-  aside .menu:first-child {
+  .parentClass aside .menu:first-child {
     max-height: calc(100vh - 200px);
     overflow-x: hidden;
     overflow-y: auto;
   }
 }
-.btn {
+.parentClass .btn {
   display: flex;
   align-items: center;
   transition: all 300ms linear;
   font-weight: var(--secFontWeight);
 }
 
-.main-btn {
+.parentClass .main-btn {
   background-color: var(--main-color-book);
   padding: 0 16px;
   min-height: 38px;
@@ -1092,15 +1090,15 @@ aside.is_expanded .powered {
   text-align: left;
   color: #FFFFFF;
 }
-.main-btn:hover {
+.parentClass .main-btn:hover {
   background-color: #000;
   color: #FFFFFF;
 }
-.main-btn svg {
+.parentClass .main-btn svg {
   fill: currentColor;
 }
 
-.sec-btn {
+.parentClass .sec-btn {
   border: 1px solid #000000;
   background-color: #fff;
   font-size: 16px;
@@ -1111,15 +1109,15 @@ aside.is_expanded .powered {
   min-height: 38px;
   border-radius: 45px;
 }
-.sec-btn:hover {
+.parentClass .sec-btn:hover {
   border-color: var(--main-color-book);
   color: var(--main-color-book);
 }
-.sec-btn svg {
+.parentClass .sec-btn svg {
   fill: currentColor;
 }
 
-.third-btn {
+.parentClass .third-btn {
   border: 1px solid #000000;
   background: #ECECEC;
   font-size: 16px;
@@ -1130,20 +1128,20 @@ aside.is_expanded .powered {
   min-height: 38px;
   border-radius: 45px;
 }
-.third-btn svg {
+.parentClass .third-btn svg {
   fill: currentColor;
 }
-.third-btn:hover {
+.parentClass .third-btn:hover {
   border-color: var(--main-color-book);
   color: var(--main-color-book);
 }
 
-.brandbooks {
+.parentClass .brandbooks {
   font-weight: calc(var(--secFontWeight) + 100);
   color: #000;
 }
 
-.section-book {
+.parentClass .section-book {
   padding: 88px 0px 0px 98px;
   min-height: 100vh;
   position: relative;
@@ -1152,25 +1150,25 @@ aside.is_expanded .powered {
   box-sizing: border-box;
 }
 @media screen and (max-width: 1200px) {
-  .section-book {
+  .parentClass .section-book {
     min-height: unset;
   }
 }
 @media screen and (max-width: 992px) {
-  .section-book {
+  .parentClass .section-book {
     padding: 60px 20px 40px 80px;
   }
 }
-.section-book .content {
+.parentClass .section-book .content {
   max-width: 550px;
 }
-.section-book#versions-book .content, .section-book#logo-book .content, .section-book#values-book .content, .section-book#space-book .content, .section-book#palette-book .content, .section-book#fonts-book .content {
+.parentClass .section-book#versions-book .content, .parentClass .section-book#logo-book .content, .parentClass .section-book#values-book .content, .parentClass .section-book#space-book .content, .parentClass .section-book#palette-book .content, .parentClass .section-book#fonts-book .content {
   max-width: 660px;
 }
-.section-book#proportions-book .content {
+.parentClass .section-book#proportions-book .content {
   max-width: 720px;
 }
-.section-book .bg {
+.parentClass .section-book .bg {
   font-family: var(--mainFont);
   color: #f2f2f2;
   font-size: 629.97px;
@@ -1182,34 +1180,37 @@ aside.is_expanded .powered {
   left: 0px;
   bottom: 0px;
 }
-.section-book .bg-img {
+.parentClass .section-book .bg-img {
   position: absolute;
   z-index: -10;
   left: -100px;
   top: -150px;
 }
-.section-book .bg-img svg {
+.parentClass .section-book .bg-img svg {
   fill: #F2F2F2;
 }
 
-#designer-book {
+.parentClass #brand-designer,
+.parentClass #designer-book {
   padding: 105px 93px 136px;
   background: #F2F2F2;
 }
-#designer-book .content {
+.parentClass #brand-designer .content,
+.parentClass #designer-book .content {
   max-width: 820px;
 }
 @media screen and (max-width: 992px) {
-  #designer-book {
+  .parentClass #brand-designer,
+  .parentClass #designer-book {
     padding: 60px 20px 40px 80px;
   }
 }
 
-.simple-pantone-color {
+.parentClass .simple-pantone-color {
   min-width: 170px;
 }
 
-.simple-pantone-color .pantone-color-wrap {
+.parentClass .simple-pantone-color .pantone-color-wrap {
   width: 137px;
   height: 248px;
   padding: 8px 8px 42px;
@@ -1218,14 +1219,14 @@ aside.is_expanded .powered {
   margin: 0 auto 9px;
 }
 
-.simple-pantone-color .color-name {
+.parentClass .simple-pantone-color .color-name {
   font-size: 13.05px;
   font-weight: var(--secFontWeight);
   line-height: 23.3px;
   text-align: center;
 }
 
-.simple-pantone-color .color-value {
+.parentClass .simple-pantone-color .color-value {
   display: grid;
   grid-template-columns: auto 60%;
   gap: 4px 13px;
@@ -1233,7 +1234,7 @@ aside.is_expanded .powered {
   max-width: 170px;
 }
 
-.simple-pantone-color .color-value .name {
+.parentClass .simple-pantone-color .color-value .name {
   font-size: 10px;
   font-weight: var(--secFontWeight);
   line-height: 20px;
@@ -1241,18 +1242,18 @@ aside.is_expanded .powered {
   color: #999;
 }
 
-.simple-pantone-color .color-value .value {
+.parentClass .simple-pantone-color .color-value .value {
   font-size: 12px;
   line-height: 20px;
   text-align: left;
   text-wrap: wrap;
 }
 
-.add-pantone-color {
+.parentClass .add-pantone-color {
   min-width: 170px;
 }
 
-.add-pantone-color .pantone-color-wrap {
+.parentClass .add-pantone-color .pantone-color-wrap {
   width: 137px;
   height: 248px;
   padding: 8px 8px 42px;
@@ -1264,18 +1265,18 @@ aside.is_expanded .powered {
   gap: 2px;
 }
 
-.add-pantone-color .shade {
+.parentClass .add-pantone-color .shade {
   height: 30px;
 }
 
-.add-pantone-color .color-name {
+.parentClass .add-pantone-color .color-name {
   font-size: 13.05px;
   font-weight: var(--secFontWeight);
   line-height: 23.3px;
   text-align: center;
 }
 
-.add-pantone-color .color-value {
+.parentClass .add-pantone-color .color-value {
   display: grid;
   grid-template-columns: auto 60%;
   gap: 4px 13px;
@@ -1283,7 +1284,7 @@ aside.is_expanded .powered {
   max-width: 170px;
 }
 
-.add-pantone-color .color-value .name {
+.parentClass .add-pantone-color .color-value .name {
   font-size: 10px;
   font-weight: var(--secFontWeight);
   line-height: 20px;
@@ -1291,14 +1292,14 @@ aside.is_expanded .powered {
   color: #999;
 }
 
-.add-pantone-color .color-value .value {
+.parentClass .add-pantone-color .color-value .value {
   font-size: 12px;
   line-height: 20px;
   text-align: left;
   text-wrap: wrap;
 }
 
-.hex-inside {
+.parentClass .hex-inside {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1314,7 +1315,7 @@ aside.is_expanded .powered {
   height: fit-content;
 }
 
-.shade .hex-inside {
+.parentClass .shade .hex-inside {
   width: 100%;
   height: 100%;
   display: block;
@@ -1325,55 +1326,55 @@ aside.is_expanded .powered {
   justify-content: center;
 }
 
-.pantone-color-wrap > .shade ~ .input-group + .hex-inside,
-.simple-pantone-color .hex-inside {
+.parentClass .pantone-color-wrap > .shade ~ .input-group + .hex-inside,
+.parentClass .simple-pantone-color .hex-inside {
   top: 36%;
   position: absolute;
   font-size: 14px;
 }
 
-.pantone-color-wrap {
+.parentClass .pantone-color-wrap {
   position: relative;
 }
 
-.pantone-color-wrap > .shade ~ .input-group {
+.parentClass .pantone-color-wrap > .shade ~ .input-group {
   max-height: calc(100% - 96px);
 }
 
-.font-block {
+.parentClass .font-block {
   margin-top: 150px;
 }
 @media screen and (max-width: 992px) {
-  .font-block {
+  .parentClass .font-block {
     margin-top: 50px;
   }
 }
-.font-block .group-samples {
+.parentClass .font-block .group-samples {
   margin-top: 52px;
   gap: 52px;
 }
 @media screen and (max-width: 992px) {
-  .font-block .group-samples {
+  .parentClass .font-block .group-samples {
     margin-top: 25px;
     gap: 25px;
   }
 }
-.font-block .font-name {
+.parentClass .font-block .font-name {
   font-size: 46px;
   font-weight: var(--secFontWeight);
   line-height: 33.5px;
   text-align: left;
 }
-.font-block .font-value {
+.parentClass .font-block .font-value {
   font-size: 16px;
   font-weight: var(--secFontWeight);
   text-align: left;
 }
-.font-block .font-weight-name {
+.parentClass .font-block .font-weight-name {
   font-style: italic;
   font-weight: calc(var(--secFontWeight) + 100);
 }
-.font-block .first-letter {
+.parentClass .font-block .first-letter {
   font-size: 34.77px;
   text-align: center;
   min-width: 97px;
@@ -1381,30 +1382,30 @@ aside.is_expanded .powered {
   border-right: 2px solid #000;
 }
 @media screen and (max-width: 992px) {
-  .font-block .first-letter {
+  .parentClass .font-block .first-letter {
     border-right: 0px solid #000;
     border-bottom: 2px solid #000;
     padding-bottom: 20px;
   }
 }
-.font-block .first-letter .company-name {
+.parentClass .font-block .first-letter .company-name {
   font-size: 11.92px;
   line-height: 16.75px;
   text-align: center;
 }
-.font-block .font-sample {
+.parentClass .font-block .font-sample {
   color: #58585A;
 }
 @media screen and (max-width: 992px) {
-  .font-block .alphabet {
+  .parentClass .font-block .alphabet {
     font-size: 16px;
   }
 }
 
-.modal .modal-header {
+.parentClass .modal .modal-header {
   border-color: #E1E1E1;
 }
-.modal .btn-close {
+.parentClass .modal .btn-close {
   opacity: 1;
   top: 16px;
   right: 20px;
@@ -1418,11 +1419,11 @@ aside.is_expanded .powered {
   background-size: contain;
   box-sizing: border-box;
 }
-.modal .block-divide {
+.parentClass .modal .block-divide {
   position: relative;
   padding: 20px 0;
 }
-.modal .block-divide:before, .modal .block-divide:after {
+.parentClass .modal .block-divide:before, .parentClass .modal .block-divide:after {
   content: "";
   width: 1px;
   height: 100%;
@@ -1433,20 +1434,20 @@ aside.is_expanded .powered {
   bottom: 0px;
 }
 @media (max-width: 1200px) {
-  .modal .block-divide:before, .modal .block-divide:after {
+  .parentClass .modal .block-divide:before, .parentClass .modal .block-divide:after {
     content: none;
   }
 }
-.modal .block-divide:after {
+.parentClass .modal .block-divide:after {
   top: auto;
   height: 1px;
   width: calc(100% + 60px);
   left: -30px;
 }
-.modal .sec-block-divide > .col:first-child {
+.parentClass .modal .sec-block-divide > .col:first-child {
   position: relative;
 }
-.modal .sec-block-divide > .col:first-child:before {
+.parentClass .modal .sec-block-divide > .col:first-child:before {
   content: "";
   height: 1px;
   width: calc(100% + 30px);
@@ -1458,35 +1459,35 @@ aside.is_expanded .powered {
   order: 1;
 }
 @media (max-width: 1200px) {
-  .modal .sec-block-divide > .col:first-child:before {
+  .parentClass .modal .sec-block-divide > .col:first-child:before {
     content: none;
   }
 }
-.modal .icon-official {
+.parentClass .modal .icon-official {
   color: var(--main-color-book);
 }
 
 @media (min-width: 1200px) {
-  .modal-1000 {
+  .parentClass .modal-1000 {
     --bs-modal-width: 1000px;
     max-width: 1000px;
   }
-  .modal-1000 .modal-body {
+  .parentClass .modal-1000 .modal-body {
     padding: 0px 30px;
   }
-  .modal-1000 .modal-content {
+  .parentClass .modal-1000 .modal-content {
     border-radius: 28px;
   }
 }
 @media (max-width: 1200px) {
-  .modal-1000 .changeable {
+  .parentClass .modal-1000 .changeable {
     border-top: 1px solid #E1E1E1;
   }
-  .modal-1000 .changeable .border-end {
+  .parentClass .modal-1000 .changeable .border-end {
     border-right: 0px solid transparent !important;
   }
 }
-body {
+body .parentClass {
   --vs-colors--lightest: rgba(60, 60, 60, 0.26);
   --vs-colors--light: rgba(60, 60, 60, 0.5);
   --vs-colors--dark: #333;
@@ -1541,34 +1542,34 @@ body {
   --vs-transition-timing-function: cubic-bezier(1, -0.115, 0.975, 0.855);
   --vs-transition-duration: 150ms;
 }
-body .v-select {
+body .parentClass .v-select {
   font-size: 14px;
 }
-body .vs__dropdown-toggle {
+body .parentClass .vs__dropdown-toggle {
   padding: 0 16px;
   height: 30px;
 }
-body .vs--single .vs__selected,
-body .vs__selected-options,
-body .vs__search {
+body .parentClass .vs--single .vs__selected,
+body .parentClass .vs__selected-options,
+body .parentClass .vs__search {
   padding: 0px !important;
   margin: 0px !important;
 }
-body .vs__open-indicator {
+body .parentClass .vs__open-indicator {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='9' height='6' viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M3.82733 4.88848L0.913934 2.23994C0.237605 1.6251 0.672575 0.5 1.58661 0.5L7.41339 0.5C8.32743 0.5 8.76239 1.6251 8.08606 2.23994L5.17267 4.88848C4.79125 5.23523 4.20875 5.23523 3.82733 4.88848Z' fill='black'/%3e%3c/svg%3e ");
   fill: transparent;
   background-size: 11px;
   background-repeat: no-repeat;
   background-position: center;
 }
-body .vs__clear {
+body .parentClass .vs__clear {
   display: none;
 }
-body .vs--open .vs__dropdown-toggle {
+body .parentClass .vs--open .vs__dropdown-toggle {
   border-top-left-radius: 20px !important;
   border-top-right-radius: 20px !important;
 }
-body .vs__dropdown-menu {
+body .parentClass .vs__dropdown-menu {
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }/*# sourceMappingURL=main.css.map */

@@ -1,11 +1,11 @@
-.btn {
+.parentClass .btn {
     display: flex;
     align-items: center;
     transition: all 300ms linear;
     font-weight: var(--secFontWeight);
 }
 
-.main-btn {
+.parentClass .main-btn {
     background-color: var(--main-color-book);
     padding: 0 16px;
     min-height: 38px;
@@ -26,7 +26,7 @@
     }
 }
 
-.sec-btn {
+.parentClass .sec-btn {
     border: 1px solid #000000;
     background-color: #fff;
     font-size: 16px;
@@ -47,7 +47,7 @@
     }
 }
 
-.third-btn {
+.parentClass .third-btn {
     border: 1px solid #000000;
     background: #ECECEC;
     font-size: 16px;
@@ -68,7 +68,7 @@
     }
 }
 
-.brandbooks {
+.parentClass .brandbooks {
     font-weight: calc(var(--secFontWeight) + 100);
     color: #000;
 }

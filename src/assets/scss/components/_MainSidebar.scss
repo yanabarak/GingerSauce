@@ -1,4 +1,4 @@
-aside {
+.parentClass aside {
     display: flex;
     flex-direction: column;
     border-right: 1px solid #E1E1E1;
@@ -137,7 +137,7 @@ aside {
 }
 
 @media screen and (max-height: 700px) {
-    aside .menu:first-child {
+    .parentClass aside .menu:first-child {
         max-height: calc(100vh - 200px);
         overflow-x: hidden;
         overflow-y: auto;

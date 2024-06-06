@@ -1,4 +1,4 @@
-.section-book {
+.parentClass .section-book {
     padding: 88px 0px 0px 98px;
     min-height: 100vh;
     position: relative;
@@ -61,8 +61,8 @@
         }
     }
 }
-
-#designer-book {
+.parentClass #brand-designer,
+.parentClass #designer-book {
     padding: 105px 93px 136px;
     background: #F2F2F2;
 
