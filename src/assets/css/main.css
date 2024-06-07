@@ -645,6 +645,10 @@
   text-decoration: underline !important;
 }
 
+.parentClass section {
+  flex-basis: fit-content;
+}
+
 @media (min-width: 1900px) {
   .parentClass .container {
     max-width: 1780px;

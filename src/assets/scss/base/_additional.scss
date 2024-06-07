@@ -618,3 +618,7 @@
 .parentClass .text-decoration-underline {
     text-decoration: underline !important;
 }
+
+.parentClass section {
+    flex-basis: fit-content;
+}
