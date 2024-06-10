@@ -1196,6 +1196,9 @@ body[style*=theme-color]:has(.parentClass) {
 .parentClass .section-book .favicon-block-wrapper svg * {
   fill: #fff !important;
 }
+.parentClass .section-book#space-book .bg-img {
+  top: 0px !important;
+}
 
 .parentClass #brand-designer,
 .parentClass #designer-book {
@@ -1405,7 +1408,7 @@ body[style*=theme-color]:has(.parentClass) {
 }
 @media screen and (max-width: 992px) {
   .parentClass .font-block .alphabet {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -1583,6 +1586,8 @@ body .parentClass .vs__dropdown-menu {
 
 .parentClass .proportions-block {
   display: flex;
+  font-size: 14px;
+  color: #808080;
 }
 .parentClass .proportions-block .logo-proportions,
 .parentClass .proportions-block .logo-proportions svg {
@@ -1675,4 +1680,177 @@ body .parentClass .vs__dropdown-menu {
 }
 .parentClass .proportions-icon .proportions-left-arrow::after {
   left: 26px !important;
+}
+
+.parentClass .clear-block-wrapper .arrow,
+.parentClass .clear-block-wrapper .d-flex,
+.parentClass .clear-block-wrapper .grid-container-clear2 {
+  flex-shrink: 0;
+}
+.parentClass .clear-block-wrapper {
+  max-width: 542px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.parentClass .clear-block-wrapper .arrow {
+  text-align: center;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  position: relative;
+  background-image: linear-gradient(to right, #808080, #808080);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+.parentClass .clear-block-wrapper .arrow::before, .parentClass .clear-block-wrapper .arrow::after {
+  content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M3.00024 -1.39045e-07L0.402168 9L5.59832 9L3.00024 -1.39045e-07Z' fill='%23808080'/%3e%3c/svg%3e ");
+  top: 50%;
+  position: absolute;
+  left: 0%;
+  transform: translateY(-50%) rotate(-90deg);
+}
+.parentClass .clear-block-wrapper .arrow span {
+  position: absolute;
+  font-size: 14px;
+  color: #808080;
+}
+.parentClass .clear-block-wrapper .left-arrow.arrow,
+.parentClass .clear-block-wrapper .right-arrow.arrow {
+  width: 30px;
+  border-left: 0px solid transparent !important;
+  border-right: 0px solid transparent !important;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  background-size: 1px auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.parentClass .clear-block-wrapper .top-arrow.arrow,
+.parentClass .clear-block-wrapper .bottom-arrow.arrow {
+  height: 30px !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.parentClass .clear-block-wrapper .left-arrow.arrow {
+  background-position: left 4px center;
+}
+.parentClass .clear-block-wrapper .left-arrow.arrow:before {
+  top: -9px !important;
+  left: 4.36px;
+  transform: translateX(-50%);
+}
+.parentClass .clear-block-wrapper .left-arrow.arrow:after {
+  bottom: -9px !important;
+  left: 4.36px;
+  transform: translateX(-50%) rotate(180deg);
+}
+.parentClass .clear-block-wrapper .left-arrow.arrow span {
+  left: -10px;
+}
+.parentClass .clear-block-wrapper .right-arrow.arrow {
+  align-self: end;
+  background-position: right 4px center;
+}
+.parentClass .clear-block-wrapper .right-arrow.arrow:before {
+  top: -9px !important;
+  left: calc(100% - 4.36px);
+  transform: translateX(-50%);
+}
+.parentClass .clear-block-wrapper .right-arrow.arrow:after {
+  bottom: -9px !important;
+  left: calc(100% - 4.36px);
+  transform: translateX(-50%) rotate(180deg);
+}
+.parentClass .clear-block-wrapper .right-arrow.arrow span {
+  right: -10px;
+}
+.parentClass .clear-block-wrapper .top-arrow.arrow {
+  background-position: top 4px center;
+}
+.parentClass .clear-block-wrapper .top-arrow.arrow::before, .parentClass .clear-block-wrapper .top-arrow.arrow::after {
+  top: 4.36px;
+}
+.parentClass .clear-block-wrapper .top-arrow.arrow::after {
+  transform: translateY(-50%) rotate(90deg);
+  right: 0px;
+  left: auto;
+}
+.parentClass .clear-block-wrapper .top-arrow.arrow span {
+  top: -20px;
+}
+.parentClass .clear-block-wrapper .bottom-arrow.arrow {
+  background-position: bottom 4px center;
+}
+.parentClass .clear-block-wrapper .bottom-arrow.arrow::before, .parentClass .clear-block-wrapper .bottom-arrow.arrow::after {
+  top: calc(100% - 4.36px);
+}
+.parentClass .clear-block-wrapper .bottom-arrow.arrow::after {
+  transform: translateY(-50%) rotate(90deg);
+  right: 0px;
+  left: auto;
+}
+.parentClass .clear-block-wrapper .bottom-arrow.arrow span {
+  bottom: -20px;
+}
+.parentClass .grid-container-clear2 {
+  display: grid;
+  gap: 1px;
+  background-color: #808080;
+  padding: 1px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.parentClass .grid-container-clear2 > div {
+  background-color: #fff;
+}
+.parentClass .grid-container-clear2 .logo-favicon {
+  width: 100%;
+  height: 100%;
+}
+.parentClass .grid-container-clear2 .logo-favicon * {
+  fill: var(--sec-color) !important;
+}
+.parentClass .grid-container-clear {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+  width: 171px;
+  height: 171px;
+  padding: 1px;
+  background-color: #808080;
+}
+.parentClass .grid-container-clear > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 14px;
+  color: #808080;
+}
+.parentClass .grid-container-clear .top-left {
+  grid-area: 1/1;
+}
+.parentClass .grid-container-clear .top-right {
+  grid-area: 1/3;
+}
+.parentClass .grid-container-clear .center {
+  grid-area: 2/2;
+}
+.parentClass .grid-container-clear .bottom-left {
+  grid-area: 3/1;
+}
+.parentClass .grid-container-clear .bottom-right {
+  grid-area: 3/3;
+}
+.parentClass .grid-container-clear .logo-favicon {
+  width: 57px;
+  height: 57px;
+}
+.parentClass .grid-container-clear .logo-favicon svg {
+  max-width: 100%;
+  max-height: 100%;
 }/*# sourceMappingURL=main.css.map */

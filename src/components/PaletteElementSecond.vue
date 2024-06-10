@@ -90,6 +90,19 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 140px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #second-color {
+    width: 250px !important;
+    height: 126px !important;
+  }
+  #second-color .current-color {
+    width: 250px !important;
+    height: 126px !important;
+    clip-path: path('m20.4 37.2c-60.8 34.9 20.7 155.4 180.6 38.2 159.9-117.2-120.6-71-180.6-38.2z');
   }
 }
 </style>

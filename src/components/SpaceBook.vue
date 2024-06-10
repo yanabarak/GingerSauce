@@ -9,10 +9,10 @@
         Guberman Icon.
       </p>
       <div class="space-1 mx-auto">
-        <img src="../assets/space.png" alt="space 1" />
+        <ClearBlock />
       </div>
       <div class="space-2 mb-50 mx-auto">
-        <img src="../assets/space2.png" alt="space 2" />
+        <ClearBlock2 :width="50" :height="50" :widthL="200" :heightL="50" />
       </div>
     </div>
 
@@ -34,6 +34,10 @@
     </div>
   </section>
 </template>
+<script setup>
+import ClearBlock from './ClearBlock.vue';
+import ClearBlock2 from './ClearBlock2.vue';
+</script>
 <style scoped>
 #space-book {
   padding-top: 220px;

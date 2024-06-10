@@ -90,4 +90,19 @@ export default {
     );
   }
 }
+
+@media screen and (max-width: 390px) {
+  #main-color {
+    width: 250px !important;
+    height: 234px !important;
+    margin-bottom: 50px;
+  }
+  #main-color .current-color {
+    width: 250px !important;
+    height: 234px !important;
+    clip-path: path(
+      'm0.8 92.5c-7.3 117.6 109.7 181.1 182.9 114 62.7-61.4 69.5-108.2 65.3-136.9-11.6-79.8-239.8-113.2-248.2 22.9z'
+    );
+  }
+}
 </style>
