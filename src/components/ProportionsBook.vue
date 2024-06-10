@@ -7,15 +7,20 @@
         These proportions were chosen carefully and they are not to be changed.<br />
         The Icon has a perfect square proportion of 1:1 and acts as the Favicon as well.
       </p>
+
       <div class="proportions-1 mb-50 ms-md-5">
-        <img src="../assets/proportions.png" alt="proportions 1" />
+        <ProportionsBlock :ratio="4" />
       </div>
       <div class="proportions-2 mb-50 mx-auto">
-        <img src="../assets/proportions2.png" alt="proportions 2" />
+        <ProportionsIcon :ratio="1" />
       </div>
     </div>
   </section>
 </template>
+<script setup>
+import ProportionsBlock from './ProportionsBlock.vue';
+import ProportionsIcon from './ProportionsIcon.vue';
+</script>
 <style scoped>
 #proportions-book {
   padding-top: 150px;

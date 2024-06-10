@@ -60,7 +60,12 @@
             fill: #F2F2F2;
         }
     }
+
+    .favicon-block-wrapper svg * {
+        fill: #fff !important;
+    }
 }
+
 .parentClass #brand-designer,
 .parentClass #designer-book {
     padding: 105px 93px 136px;

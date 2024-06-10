@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="parentClass">
     <MainHeader @clicked="onClickChild" />
     <div class="container-fluid px-0">
       <div class="wrapper d-flex align-items-stretch flex-md-row">
