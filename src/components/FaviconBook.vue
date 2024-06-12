@@ -78,8 +78,10 @@ export default {
 #favicon-book .main-favicon {
   width: 150px;
   height: 155px;
+  margin: 0 auto;
 }
-#favicon-book .main-favicon svg {
+#favicon-book .main-favicon svg,
+#favicon-book .main-favicon img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;

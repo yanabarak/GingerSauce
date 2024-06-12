@@ -142,11 +142,13 @@ export default {
 
 #minimum-book .minimum-width {
   color: #797979;
-  font-size: 14px;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   padding-top: 8px;
   min-height: 51px;
+  flex-wrap: wrap;
+  line-height: 1.2;
 }
 #minimum-book .fractionalPart {
   font-size: 10px;
@@ -160,6 +162,10 @@ export default {
 #minimum-book .minimum-full-logo,
 #minimum-book .minimum-small-logo {
   max-width: 210px;
+}
+#minimum-book .minimum-small-logo img,
+#minimum-book .minimum-full-logo img {
+  width: 100%;
 }
 #minimum-book .minimum-full-logo .mb-2,
 #minimum-book .minimum-small-logo .mb-2 {
