@@ -3,7 +3,7 @@
     <MainHeader @clicked="onClickChild" />
     <div class="container-fluid px-0">
       <div class="wrapper d-flex align-items-stretch flex-md-row">
-        <MainSidebar
+        <SideBarEdit
           :is_expanded="is_expanded"
           :active-section="activeSection"
           @set-active-section="setActiveSection"
@@ -18,7 +18,8 @@
 <script setup>
 import { ref } from 'vue';
 
-import MainSidebar from './MainSidebar.vue';
+// import MainSidebar from './MainSidebar.vue';
+import SideBarEdit from './SideBarEdit.vue';
 import MainHeader from './MainHeader.vue';
 import CustomizeModal from './CustomizeModal.vue';
 

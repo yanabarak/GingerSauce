@@ -5,6 +5,35 @@
     box-sizing: border-box;
     z-index: 1060;
 
+    .image.rounded-circle+span {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn {
+        align-self: center;
+    }
+
+    .name.fs-20 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        line-height: 1.2;
+    }
+
+    .nav-item.dropdown {
+        display: flex;
+    }
+
+    .menu-toggle-wrap.ms-4,
+    .ms-40 {
+        margin-inline-start: calc(var(--fontSize) * 1) !important;
+    }
+
     .logo {
         width: calc(61px - 14px);
         transition: 0.2s ease-in-out;
