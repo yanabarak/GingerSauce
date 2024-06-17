@@ -79,8 +79,19 @@
         fill: currentColor !important;
     }
 
+    .dropdown-menu.show {
+        display: block;
+        right: 0px;
+        left: auto !important;
+    }
+
     @media screen and (max-width:768px) {
         padding: 14px;
 
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: var(--theme-color);
     }
 }

@@ -970,10 +970,19 @@ body[style*=theme-color]:has(.parentClass) {
 .parentClass nav.navbar.border-bottom .menu-toggle:focus {
   fill: currentColor !important;
 }
+.parentClass nav.navbar.border-bottom .dropdown-menu.show {
+  display: block;
+  right: 0px;
+  left: auto !important;
+}
 @media screen and (max-width: 768px) {
   .parentClass nav.navbar.border-bottom {
     padding: 14px;
   }
+}
+.parentClass nav.navbar.border-bottom .dropdown-item.active,
+.parentClass nav.navbar.border-bottom .dropdown-item:active {
+  background-color: var(--theme-color);
 }
 
 .parentClass aside {
