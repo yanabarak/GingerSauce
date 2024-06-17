@@ -1,7 +1,7 @@
 <template>
   <section class="align-self-start col-12 section-book">
     <div class="content">
-      <h1 class="mb-4">Introduction</h1>
+      <h1 class="mb-4 editable-content" v-editable-content>Introduction</h1>
       <p>
         Welcome to the official brand guidelines of the Guberman brand and assets. This document is
         intended to educate anyone who is responsible for creating internal or external

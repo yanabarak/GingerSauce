@@ -11,6 +11,11 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import VueObserveVisibility from 'vue-observe-visibility';
 import updateCSSVariables from './js/updateCss';
+import editableContent, { applyEditableContent } from './js/editableContent';
+
+Vue.directive('editable-content', editableContent);
+
+Vue.prototype.$applyEditableContent = applyEditableContent;
 
 import vSelect from 'vue-select';
 
