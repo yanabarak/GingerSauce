@@ -12,7 +12,8 @@
       </div>
     </div>
     <CustomizeModal />
-    <HeadingModal />
+    <EditModals />
+    <DeleteModal />
   </div>
 </template>
 
@@ -23,7 +24,8 @@ import { ref } from 'vue';
 import SideBarEdit from './SideBarEdit.vue';
 import MainHeader from './MainHeader.vue';
 import CustomizeModal from './CustomizeModal.vue';
-import HeadingModal from './EditElements/HeadingModal.vue';
+import EditModals from './EditElements/EditModals.vue';
+import DeleteModal from './EditElements/DeleteModal.vue';
 
 import MainBook from './MainBook.vue';
 </script>

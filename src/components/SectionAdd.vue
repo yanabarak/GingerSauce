@@ -92,10 +92,9 @@ export default {
       const newHeader = document.createElement('h1');
       newHeader.classList.add('mb-4');
       newHeader.classList.add('editable-content');
-      newHeader.textContent = headerText; // or your dynamic headerText variable
+      newHeader.textContent = headerText;
       addLine.parentNode.insertBefore(newHeader, addLine);
 
-      // Apply the directive logic to the new element
       this.$applyEditableContent(newHeader);
     },
 
@@ -107,6 +106,8 @@ export default {
       newText.classList.add('editable-content');
       newText.innerHTML = simpleText;
       addLine.parentNode.insertBefore(newText, addLine);
+
+      this.$applyEditableContent(newText);
     },
 
     handleSaveImage(imagePaste) {
@@ -118,6 +119,8 @@ export default {
       newImg.classList.add('editable-content');
       newImg.style.cssText = `width: ${imagePaste.width}px`;
       addLine.parentNode.insertBefore(newImg, addLine);
+
+      this.$applyEditableContent(newImg);
     },
   },
 };

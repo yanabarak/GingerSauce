@@ -12,8 +12,7 @@ function applyEditableContent(el) {
     deleteButton.innerText = 'Delete';
     deleteButton.classList.add('delete-button');
     deleteButton.addEventListener('click', () => {
-      wrapper.previousSibling.remove();
-      wrapper.remove();
+      EventBus.$emit('openModalDelete', { element: el, text: el.textContent });
     });
 
     // Create the edit button
@@ -25,11 +24,23 @@ function applyEditableContent(el) {
     });
 
     // Append buttons to the wrapper
-    // wrapper.appendChild(el.cloneNode(true));
     wrapper.appendChild(editButton);
     wrapper.appendChild(deleteButton);
 
+    // Append wrapper to the DOM
     el.after(wrapper);
+
+    // Add hover event listeners
+    el.addEventListener('mouseenter', () => {
+      const parentSection = el.closest('section');
+      const sectionRect = parentSection.getBoundingClientRect();
+      wrapper.style.position = 'absolute';
+      wrapper.style.top = `${el.offsetTop}px`;
+      wrapper.style.left = `${sectionRect.left + el.offsetWidth}px`;
+      if (el.nodeName == 'IMG') {
+        wrapper.style.left = `${el.offsetWidth}px`;
+      }
+    });
   }
 }
 
