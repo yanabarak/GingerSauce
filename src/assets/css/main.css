@@ -1486,6 +1486,27 @@ body[style*=theme-color]:has(.parentClass) {
   max-height: calc(100% - 96px);
 }
 
+.parentClass .vc-chrome * {
+  z-index: 100000;
+}
+
+.parentClass .add-pantone-color .pantone-color-wrap,
+.parentClass .add-pantone-color .pantone-color-wrap .input-group {
+  position: unset;
+}
+
+.parentClass .add-pantone-color .pantone-color-wrap > .shade ~ .input-group + .hex-inside {
+  margin-top: 70px;
+  position: absolute;
+  top: unset !important;
+  left: unset !important;
+  margin-left: 59px;
+}
+
+.parentClass .vc-chrome-body {
+  position: relative;
+}
+
 .parentClass .font-block {
   margin-top: 150px;
 }
