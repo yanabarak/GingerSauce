@@ -18,7 +18,7 @@
     display: block;
 }
 
-.parentClass  {
+.parentClass {
     font-family: var(--secFont);
     min-height: 100%;
     font-weight: var(--secFontWeight);
@@ -32,6 +32,11 @@
 .parentClass .vc-chrome {
     font-family: var(--secFont) !important;
 }
+
+.parentClass .vc-chrome * {
+    z-index: 100000;
+}
+
 body[style*="theme-color"]:has(.parentClass) {
     overflow: auto;
 }
