@@ -21,5 +21,9 @@
       </div>
     </div>
     <div class="bg">ntr</div>
+    <SectionAdd />
   </section>
 </template>
+<script setup>
+import SectionAdd from './SectionAdd.vue';
+</script>

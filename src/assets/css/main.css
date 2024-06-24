@@ -1142,8 +1142,12 @@ body[style*=theme-color]:has(.parentClass) {
 .parentClass aside .drag-menu .d-flex.add-item input.error {
   border-bottom-color: var(--danger);
 }
+.parentClass aside .drag-menu .d-flex.add-item .menu-icon,
 .parentClass aside .drag-menu .d-flex.add-item .icon-plus {
   cursor: pointer;
+}
+.parentClass aside .drag-menu #new-section-image {
+  max-width: unset !important;
 }
 .parentClass aside .powered {
   font-weight: var(--secFontWeight);
@@ -1280,12 +1284,14 @@ body[style*=theme-color]:has(.parentClass) {
   color: #000;
 }
 
+.parentClass > .container-fluid > .wrapper > .d-flex {
+  overflow-x: hidden;
+}
+
 .parentClass .section-book {
   padding: 88px 0px 0px 98px;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
-  z-index: 1;
   box-sizing: border-box;
 }
 @media screen and (max-width: 1200px) {
@@ -1300,6 +1306,7 @@ body[style*=theme-color]:has(.parentClass) {
 }
 .parentClass .section-book .content {
   max-width: 550px;
+  z-index: 1;
 }
 .parentClass .section-book#versions-book .content, .parentClass .section-book#logo-book .content, .parentClass .section-book#values-book .content, .parentClass .section-book#space-book .content, .parentClass .section-book#palette-book .content, .parentClass .section-book#fonts-book .content {
   max-width: 660px;
@@ -1315,13 +1322,13 @@ body[style*=theme-color]:has(.parentClass) {
   line-height: 482.97px;
   text-align: left;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: 0px;
   bottom: 0px;
 }
 .parentClass .section-book .bg-img {
   position: absolute;
-  z-index: -10;
+  z-index: 0;
   left: -100px;
   top: -150px;
 }
@@ -2065,6 +2072,7 @@ body .parentClass .vs__dropdown-menu {
   border-radius: 28px;
   gap: 0px;
   transition: all 300ms linear;
+  position: fixed;
 }
 .parentClass #section-new .add-line .dropdown-menu-center.show {
   display: flex;

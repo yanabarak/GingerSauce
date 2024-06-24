@@ -188,10 +188,15 @@
                 }
             }
 
+            .menu-icon,
             .icon-plus {
                 cursor: pointer;
             }
 
+        }
+
+        #new-section-image {
+            max-width: unset !important;
         }
     }
 

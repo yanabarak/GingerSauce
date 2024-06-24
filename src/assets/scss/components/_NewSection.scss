@@ -57,6 +57,7 @@
                 border-radius: 28px;
                 gap: 0px;
                 transition: all 300ms linear;
+                position: fixed;
 
                 &.show {
                     display: flex;

@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column flex-grow-1">
     <TitleBook id="title-book" />
-    <SectionAdd />
+    <!-- <SectionAdd /> -->
     <IntroductionBook id="introduction-book" v-observe-visibility="visibilityChanged" />
     <VisionBook id="vision-book" v-observe-visibility="visibilityChanged" />
     <MisionBook id="mision-book" v-observe-visibility="visibilityChanged" />
@@ -37,7 +37,7 @@ import PaletteBook from './PaletteBook.vue';
 import FontsBook from './FontsBook.vue';
 import BrandDesigner from './BrandDesigner.vue';
 
-import SectionAdd from './SectionAdd.vue';
+// import SectionAdd from './SectionAdd.vue';
 </script>
 
 <script>
