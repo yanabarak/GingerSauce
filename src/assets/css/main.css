@@ -1592,6 +1592,14 @@ body[style*=theme-color]:has(.parentClass) {
   background-size: contain;
   box-sizing: border-box;
 }
+@media (max-width: 1200px) {
+  .parentClass .modal .btn-close {
+    top: 6px;
+    right: 6px;
+    width: 14px;
+    height: 14px;
+  }
+}
 .parentClass .modal .block-divide {
   position: relative;
   padding: 20px 0;
@@ -1643,7 +1651,7 @@ body[style*=theme-color]:has(.parentClass) {
 @media (min-width: 1200px) {
   .parentClass .modal-1000 {
     --bs-modal-width: 1000px;
-    max-width: 1000px;
+    width: 1000px;
   }
   .parentClass .modal-1000 .modal-body {
     padding: 0px 30px;
@@ -1659,7 +1667,15 @@ body[style*=theme-color]:has(.parentClass) {
   .parentClass .modal-1000 .changeable .border-end {
     border-right: 0px solid transparent !important;
   }
+  .parentClass .modal-1000 .modal-content {
+    border-radius: 10px;
+  }
 }
+.modal[id*=AddSectionImageModal] .modal-body,
+#imageModalEdit .modal-body {
+  margin: 0px;
+}
+
 body .parentClass {
   --vs-colors--lightest: rgba(60, 60, 60, 0.26);
   --vs-colors--light: rgba(60, 60, 60, 0.5);
@@ -2021,6 +2037,7 @@ body .parentClass .vs__dropdown-menu {
 .parentClass #section-new {
   min-height: unset;
   padding-right: 98px;
+  padding-left: 0px;
   overflow: visible;
   z-index: 2;
 }
@@ -2185,7 +2202,7 @@ body .parentClass .vs__dropdown-menu {
   margin-left: -170px;
 }
 .parentClass img.editable-content + .editable-wrap {
-  margin-left: -110px;
+  margin-left: -90px;
 }
 .parentClass .editable-wrap:hover,
 .parentClass .editable-content:hover + .editable-wrap {

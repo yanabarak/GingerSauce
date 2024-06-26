@@ -2,6 +2,7 @@
     #section-new {
         min-height: unset;
         padding-right: 98px;
+        padding-left: 0px;
         overflow: visible;
         z-index: 2;
 
@@ -190,7 +191,7 @@
     }
 
     img.editable-content+.editable-wrap {
-        margin-left: -110px;
+        margin-left: -90px;
     }
 
     .editable-wrap:hover,
