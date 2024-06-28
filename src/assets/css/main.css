@@ -926,10 +926,13 @@ body[style*=theme-color]:has(.parentClass) {
 .parentClass nav.navbar.border-bottom .name.fs-20 {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   line-height: 1.2;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
 }
 .parentClass nav.navbar.border-bottom .nav-item.dropdown {
   display: flex;
@@ -952,6 +955,12 @@ body[style*=theme-color]:has(.parentClass) {
   opacity: 0;
   transition: 0.2s ease-in-out;
 }
+.parentClass nav.navbar.border-bottom .logo_short {
+  display: block;
+  max-width: 160px;
+  max-height: 40px;
+  opacity: 1;
+}
 .parentClass nav.navbar.border-bottom .logo.is_expanded {
   width: 193px;
   margin-left: 14px;
@@ -969,7 +978,7 @@ body[style*=theme-color]:has(.parentClass) {
 }
 .parentClass nav.navbar.border-bottom .menu-toggle:focus {
   outline: none;
-  color: var(--theme-color) !important;
+  color: var(--main-color-book) !important;
 }
 .parentClass nav.navbar.border-bottom .menu-toggle:focus {
   fill: currentColor !important;
@@ -984,9 +993,14 @@ body[style*=theme-color]:has(.parentClass) {
     padding: 14px;
   }
 }
+@media screen and (max-width: 768px) {
+  .parentClass nav.navbar.border-bottom .dropdown::before {
+    content: none !important;
+  }
+}
 .parentClass nav.navbar.border-bottom .dropdown-item.active,
 .parentClass nav.navbar.border-bottom .dropdown-item:active {
-  background-color: var(--theme-color);
+  background-color: var(--main-color-book);
 }
 
 .parentClass aside {
@@ -1652,6 +1666,7 @@ body[style*=theme-color]:has(.parentClass) {
   .parentClass .modal-1000 {
     --bs-modal-width: 1000px;
     width: 1000px;
+    max-width: 1000px;
   }
   .parentClass .modal-1000 .modal-body {
     padding: 0px 30px;
@@ -2351,4 +2366,29 @@ body .parentClass .vs__dropdown-menu {
 
 .deleteModalContent {
   padding: 15px;
+}
+
+.main-book a {
+  color: var(--theme-color);
+}
+
+.main-book .main-btn {
+  background-color: var(--theme-color);
+}
+
+.main-book .sec-btn:hover {
+  border-color: var(--theme-color);
+  color: var(--theme-color);
+}
+
+.main-book #dropzone {
+  border: 2px dashed var(--theme-color);
+}
+
+.main-book {
+  scrollbar-color: var(--theme-color) #f2f2f2 !important;
+}
+
+.parentClass {
+  scrollbar-color: var(--main-color-book) #f2f2f2;
 }/*# sourceMappingURL=main.css.map */

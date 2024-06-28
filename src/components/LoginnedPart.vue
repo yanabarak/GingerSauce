@@ -8,7 +8,7 @@
 
     <div class="d-flex gap-2 flex-grow-0 ms-auto">
       <CustomizePart />
-      <div class="expir-date d-flex flex-column align-self-center">
+      <div class="expir-date d-none d-md-flex flex-column align-self-center">
         <div class="title">Expiration date</div>
         <div class="date">29.10.2024</div>
       </div>

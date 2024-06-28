@@ -1,0 +1,25 @@
+
+.main-book a{
+    color: var(--theme-color);
+  }
+  
+  .main-book .main-btn{
+    background-color: var(--theme-color);
+  }
+  
+  .main-book  .sec-btn:hover {
+    border-color: var(--theme-color);
+    color: var(--theme-color);
+  }
+  
+  .main-book #dropzone {
+    border: 2px dashed var(--theme-color);
+  }
+  
+  .main-book {
+    scrollbar-color: var(--theme-color) #f2f2f2 !important;
+  }
+  
+  .parentClass {
+    scrollbar-color: var(--main-color-book) #f2f2f2;
+  }

@@ -15,8 +15,8 @@
           </svg>
         </button>
       </div>
-      <div class="d-none d-lg-flex align-content-center flex-grow-1 justify-content-between ms-40">
-        <div class="name fs-20 fw-500 align-self-center me-3">Guberman Brand Book</div>
+      <div class="align-content-center d-flex flex-grow-1 justify-content-between ms-40">
+        <div class="name fs-20 fw-500 align-self-center me-3 d-none d-lg-flex">Guberman Brand Book</div>
         <!-- <LoginPart /> -->
         <LoginnedPart />
       </div>

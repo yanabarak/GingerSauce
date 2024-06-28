@@ -9,7 +9,7 @@
       :aria-expanded="showDropdown"
     >
       <RoundedImage style="width: 34px; height: 34px" />
-      <span class="ms-3 me-1">Josh Bloch</span>
+      <span class="d-none d-md-flex ms-3 me-1">Josh Bloch</span>
     </a>
     <ul
       class="dropdown-menu"

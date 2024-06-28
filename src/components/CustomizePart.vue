@@ -1,7 +1,7 @@
 <template>
   <a
     type="button"
-    class="btn bg-transparent d-flex gap-2 text-decoration-underline fs-16 fw-500"
+    class="d-none d-md-flex btn bg-transparent gap-2 text-decoration-underline fs-16 fw-500"
     data-toggle="modal"
     data-target="#customizeModal"
   >
