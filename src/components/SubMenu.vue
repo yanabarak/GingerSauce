@@ -37,6 +37,8 @@
           <li><a class="dropdown-item" href="#">EN</a></li>
         </ul>
       </li>
+      <li class="d-flex d-xl-none  px-2 py-1"><button class="btn main-btn preview-buttons customize-remove-watermark ">Remove watermark</button></li>
+      <li  class="d-flex d-xl-none px-2 py-1"><button class="btn third-btn">Download</button></li>
     </ul>
   </div>
 </template>
