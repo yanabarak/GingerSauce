@@ -59,7 +59,7 @@
         max-height: 40px;
         opacity: 1;
     }
-    
+
 
     .logo.is_expanded {
         width: calc(220px - 27px);
@@ -110,5 +110,29 @@
     .dropdown-item.active,
     .dropdown-item:active {
         background-color: var(--main-color-book);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .parentClass nav.navbar.border-bottom .logo.is_expanded {
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    .parentClass nav.navbar.border-bottom {
+        padding: 5px;
+        height: auto;
+        min-height: 69px;
+    }
+
+    .parentClass #navbarDropdownMenuLink {
+        padding: 0px
+    }
+
+
+    .parentClass .third-btn,
+    .parentClass .main-btn,
+    .parentClass .sec-btn{
+        font-size: 12px !important;
     }
 }

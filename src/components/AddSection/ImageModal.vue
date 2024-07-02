@@ -31,7 +31,6 @@
               :options="dropzoneOptions"
               @vdropzone-file-added="fileAdded"
             ></vue-dropzone>
-
             <p class="info text-center" v-if="imageData">
               Drag with right bottom corner for resizing image
             </p>
@@ -67,22 +66,18 @@
     </div>
   </div>
 </template>
+
 <script>
 import VueDropzone from 'vue2-dropzone';
 import 'vue2-dropzone/dist/vue2Dropzone.min.css';
+
 export default {
   components: {
     VueDropzone,
   },
   data() {
     return {
-      imagePaste: '',
-      imageSrc: this.imageData,
-      width: 200,
-      originalWidth: 0,
-      originalHeight: 0,
-      originalMouseX: 0,
-      originalMouseY: 0,
+      imageData: null,
       dropzoneOptions: {
         url: 'no-url', // No actual URL is needed since we don't perform an upload
         autoProcessQueue: false,
@@ -90,15 +85,20 @@ export default {
         addRemoveLinks: true,
         acceptedFiles: 'image/*',
       },
-      imageData: null,
-      resizeWidth: 300, // Initial width
-      resizeHeight: 300, // Initial height
+      width: 200,
+      height: 200,
+      originalWidth: 0,
+      originalHeight: 0,
+      originalMouseX: 0,
+      originalMouseY: 0,
+      aspectRatio: 1,
     };
   },
   computed: {
     imageStyle() {
       return {
         width: this.width + 'px',
+        height: this.height + 'px',
       };
     },
   },
@@ -107,8 +107,23 @@ export default {
       const reader = new FileReader();
       reader.onload = e => {
         this.imageData = e.target.result;
+        this.setImageDimensions();
       };
       reader.readAsDataURL(file);
+    },
+    setImageDimensions() {
+      const img = new Image();
+      img.src = this.imageData;
+      img.onload = () => {
+        this.aspectRatio = img.width / img.height;
+        if (img.width >= img.height) {
+          this.width = 200;
+          this.height = 200 / this.aspectRatio;
+        } else {
+          this.height = 200;
+          this.width = 200 * this.aspectRatio;
+        }
+      };
     },
     initResize(event) {
       this.originalWidth = this.width;
@@ -121,41 +136,47 @@ export default {
     resize(event) {
       const dx = event.clientX - this.originalMouseX;
       const dy = event.clientY - this.originalMouseY;
-      const aspectRatio = this.originalWidth / this.originalHeight;
-
       if (Math.abs(dx) > Math.abs(dy)) {
         this.width = this.originalWidth + dx;
-        this.height = this.width / aspectRatio;
+        this.height = this.width / this.aspectRatio;
       } else {
         this.height = this.originalHeight + dy;
-        this.width = this.height * aspectRatio;
+        this.width = this.height * this.aspectRatio;
       }
     },
     stopResize() {
       window.removeEventListener('mousemove', this.resize);
       window.removeEventListener('mouseup', this.stopResize);
-      this.imagePaste = new Object({ src: this.imageData, width: this.width });
     },
     saveImage() {
-      this.imagePaste = new Object({ src: this.imageData, width: this.width });
-      this.$emit('save-image', this.imagePaste);
-      this.imageData = '';
-      this.imagePaste = ''; // Clear input after save
+      const imagePaste = { src: this.imageData, width: this.width, height: this.height };
+      this.$emit('save-image', imagePaste);
+      this.imageData = null;
     },
   },
   mounted() {
-    const img = new Image();
-    img.src = this.imageData;
-    img.onload = () => {
-      const aspectRatio = img.width / img.height;
-      if (img.width >= img.height) {
-        this.width = 200;
-        this.height = 200 / aspectRatio;
-      } else {
-        this.height = 200;
-        this.width = 200 * aspectRatio;
-      }
-    };
+    if (this.imageData) {
+      this.setImageDimensions();
+    }
   },
 };
 </script>
+
+<style scoped>
+.resizable-image {
+  position: relative;
+  display: inline-block;
+}
+.resizable-image img {
+  display: block;
+}
+.resizer {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
+</style>

@@ -7,7 +7,7 @@
         z-index: 2;
 
         @media screen and (max-width: 992px) {
-            padding: 60px 20px 40px 80px;
+            padding: 60px 0px 40px 0px;
         }
 
         h1,
@@ -83,8 +83,13 @@
                     color: #000;
 
                     &:hover {
-                        background-color: transparent;
-                        color: var(--main-color-book);
+                        background-color: transparent;    
+                        color: var(--theme-color);
+                    }
+
+
+                    @media screen and (max-width: 992px) {
+                        padding: 10px 15px;
                     }
                 }
             }

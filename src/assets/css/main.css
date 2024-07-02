@@ -880,7 +880,6 @@ body[style*=theme-color]:has(.parentClass) {
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--main-color-book) #f2f2f2;
 }
 
 /* Chrome, Edge and Safari */
@@ -925,7 +924,6 @@ body[style*=theme-color]:has(.parentClass) {
 }
 .parentClass nav.navbar.border-bottom .name.fs-20 {
   overflow: hidden;
-  display: -webkit-box;
   -webkit-line-clamp: 1;
   line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -1003,6 +1001,25 @@ body[style*=theme-color]:has(.parentClass) {
   background-color: var(--main-color-book);
 }
 
+@media screen and (max-width: 576px) {
+  .parentClass nav.navbar.border-bottom .logo.is_expanded {
+    width: 100px;
+    margin-left: 0px;
+  }
+  .parentClass nav.navbar.border-bottom {
+    padding: 5px;
+    height: auto;
+    min-height: 69px;
+  }
+  .parentClass #navbarDropdownMenuLink {
+    padding: 0px;
+  }
+  .parentClass .third-btn,
+  .parentClass .main-btn,
+  .parentClass .sec-btn {
+    font-size: 12px !important;
+  }
+}
 .parentClass aside {
   display: flex;
   flex-direction: column;
@@ -2058,7 +2075,7 @@ body .parentClass .vs__dropdown-menu {
 }
 @media screen and (max-width: 992px) {
   .parentClass #section-new {
-    padding: 60px 20px 40px 80px;
+    padding: 60px 0px 40px 0px;
   }
 }
 .parentClass #section-new h1,
@@ -2127,7 +2144,12 @@ body .parentClass .vs__dropdown-menu {
 }
 .parentClass #section-new .add-line .dropdown-menu-center a:hover {
   background-color: transparent;
-  color: var(--main-color-book);
+  color: var(--theme-color);
+}
+@media screen and (max-width: 992px) {
+  .parentClass #section-new .add-line .dropdown-menu-center a {
+    padding: 10px 15px;
+  }
 }
 .parentClass .new-image,
 .parentClass figure.image,
@@ -2391,4 +2413,16 @@ body .parentClass .vs__dropdown-menu {
 
 .parentClass {
   scrollbar-color: var(--main-color-book) #f2f2f2;
+}
+
+#new-brandbook-form {
+  z-index: 10000;
+}
+
+#modal-choose-plan {
+  z-index: 1060;
+}
+
+.footer-icon {
+  align-self: center;
 }/*# sourceMappingURL=main.css.map */

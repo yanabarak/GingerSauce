@@ -23,3 +23,14 @@
   .parentClass {
     scrollbar-color: var(--main-color-book) #f2f2f2;
   }
+
+#new-brandbook-form {
+  z-index: 10000;
+}
+
+#modal-choose-plan {
+  z-index: 1060;
+}
+.footer-icon {
+  align-self: center;
+}
