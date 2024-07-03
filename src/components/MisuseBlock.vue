@@ -55,7 +55,9 @@ export default {
   position: relative;
   z-index: -1;
 }
-.misuse-block img {
+
+.misuse-block img,
+.misuse-block svg {
   width: 100%;
   height: 100%;
   object-fit: contain;
