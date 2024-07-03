@@ -26,14 +26,27 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 1;
+}
+.misuse-block-crossed:after {
+  content: '';
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url('data:image/svg+xml,%3Csvg width="143" height="102" viewBox="0 0 143 102" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cline x1="141.578" y1="0.815683" x2="0.578497" y2="100.816" stroke="%23FF0000" stroke-width="2"/%3E%3C/svg%3E');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%, auto;
   width: 90%;
   margin: 0 auto 20px;
-  position: relative;
+  position: absolute;
   z-index: 1;
+  top: 0px;
+  left: 5%;
 }
 .misuse-block {
   width: 160px;
