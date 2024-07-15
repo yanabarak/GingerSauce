@@ -1390,6 +1390,7 @@ body[style*=theme-color]:has(.parentClass) {
 }
 .parentClass .section-book#archetype-book .archetype-wrapper .archetype:only-child .img-wrapper img {
   width: 100%;
+  align-self: center;
 }
 .parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) {
   max-width: 340px;
@@ -1477,6 +1478,11 @@ body[style*=theme-color]:has(.parentClass) {
 }
 .parentClass .section-book#space-book .bg-img {
   top: 0px !important;
+}
+
+.parentClass .cover-img img {
+  max-width: 100%;
+  height: auto;
 }
 
 .parentClass #brand-designer,

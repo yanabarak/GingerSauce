@@ -1,9 +1,9 @@
 <template>
   <div
     class="modal fade"
-    id="imageModal"
+    id="imageModal1"
     tabindex="-1"
-    aria-labelledby="imageModal"
+    aria-labelledby="imageModal1"
     aria-hidden="true"
   >
     <div class="modal-dialog modal-dialog-centered modal-lg modal-1000">
@@ -37,6 +37,7 @@
             class="btn sec-btn px-5 col-3 justify-content-center"
             aria-label="Close"
             data-dismiss="modal"
+            @click="cancel"
           >
             Cancel
           </button>
@@ -53,9 +54,11 @@
     </div>
   </div>
 </template>
+
 <script>
 import VueDropzone from 'vue2-dropzone';
 import 'vue2-dropzone/dist/vue2Dropzone.min.css';
+
 export default {
   components: {
     VueDropzone,
@@ -68,7 +71,6 @@ export default {
       originalWidth: 0,
       originalHeight: 0,
       originalMouseX: 0,
-      originalMouseY: 0,
       dropzoneOptions: {
         url: 'no-url', // No actual URL is needed since we don't perform an upload
         autoProcessQueue: false,
@@ -100,7 +102,6 @@ export default {
       this.originalWidth = this.width;
       this.originalHeight = this.height;
       this.originalMouseX = event.clientX;
-      this.originalMouseY = event.clientY;
       window.addEventListener('mousemove', this.resize);
       window.addEventListener('mouseup', this.stopResize);
     },
@@ -127,6 +128,12 @@ export default {
       this.$emit('save-image', this.imagePaste);
       this.imageData = '';
       this.imagePaste = ''; // Clear input after save
+    },
+    cancel() {
+      this.imageData = null;
+      this.imagePaste = '';
+      this.$emit('save-image', this.imagePaste);
+      this.$refs.myDropzone.removeAllFiles();
     },
   },
   mounted() {

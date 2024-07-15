@@ -86,6 +86,7 @@
 
                         img {
                             width: 100%;
+                            align-self: center;
                         }
                     }
                 }
@@ -193,6 +194,15 @@
 
     &#space-book .bg-img {
         top: 0px !important;
+    }
+}
+
+.parentClass {
+    .cover-img {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
 
