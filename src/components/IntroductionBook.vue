@@ -21,5 +21,9 @@
       </div>
     </div>
     <div class="bg">ntr</div>
+    <WatermarkImage />
   </section>
 </template>
+<script setup>
+  import WatermarkImage from './WatermarkImage.vue'
+</script>

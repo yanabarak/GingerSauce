@@ -34,3 +34,7 @@
 .footer-icon {
   align-self: center;
 }
+.parentClass section>*:not([class*="bg"]){
+  position: relative;
+  z-index: 1
+}

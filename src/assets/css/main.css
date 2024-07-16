@@ -1484,6 +1484,24 @@ body[style*=theme-color]:has(.parentClass) {
   max-width: 100%;
   height: auto;
 }
+.parentClass .watermark {
+  position: absolute !important;
+  z-index: 10 !important;
+  bottom: 20px;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 992px) {
+  .parentClass .watermark {
+    width: 100px;
+    bottom: 0px;
+  }
+}
+.parentClass .watermark img {
+  width: 100% !important;
+  height: auto;
+}
 
 .parentClass #brand-designer,
 .parentClass #designer-book {
@@ -2537,4 +2555,9 @@ body .parentClass .vs__dropdown-menu {
 
 .footer-icon {
   align-self: center;
+}
+
+.parentClass section > *:not([class*=bg]) {
+  position: relative;
+  z-index: 1;
 }/*# sourceMappingURL=main.css.map */
