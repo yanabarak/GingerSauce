@@ -44,7 +44,7 @@
       }"
     />
     <ArchetypeBook
-      id="archetype-book"
+      id="brand-archetype"
       v-observe-visibility="{
         callback: visibilityChanged,
         intersection: {

@@ -1,5 +1,5 @@
 <template>
-  <section class="align-self-start col-12 section-book" id="archetype-book">
+  <section class="align-self-start col-12 section-book" id="brand-archetype">
     <div class="content">
       <h1 class="mb-4">Brand Archetype</h1>
       <p>
@@ -14,13 +14,13 @@
     </div>
     <div class="archetype-wrapper">
       <ArchetypeBlock
-        img="magician"
+        img="themagician"
         title="The Magician"
         text="It is a smart and intelligent archetype, aiming to make all the wishes come true. The Magician brands oftentimes convert their groundbreaking knowledge into innovative technology. Audiences of this type need to be provided with a solution to their problem, or to be in on the secret information."
         sample="Think of Nikola Tesla, Disney or Apple."
       />
       <ArchetypeBlock
-        img="creator"
+        img="thecreator"
         title="The Creator"
         text="The Creator are nonconformists, driven by a desire for the self-expression. They have their own vision, and try to create something truly unique. With their project, they aim at uncovering the true potential and creativity of their audience."
         sample="Think of Pharrell Williams, Adobe or Lego."

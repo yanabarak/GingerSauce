@@ -1339,25 +1339,31 @@ body[style*=theme-color]:has(.parentClass) {
   max-width: 550px;
   z-index: 1;
 }
-.parentClass .section-book#versions-book .content, .parentClass .section-book#logo-book .content, .parentClass .section-book#values-book .content, .parentClass .section-book#space-book .content, .parentClass .section-book#palette-book .content, .parentClass .section-book#fonts-book .content, .parentClass .section-book#archetype-book .content {
+.parentClass .section-book#versions-book .content, .parentClass .section-book#logo-book .content, .parentClass .section-book#values-book .content, .parentClass .section-book#space-book .content, .parentClass .section-book#palette-book .content, .parentClass .section-book#fonts-book .content, .parentClass .section-book#brand-archetype .content {
   max-width: 660px;
 }
-.parentClass .section-book#archetype-book .bg-img {
+.parentClass .section-book#brand-archetype .main-color-fill {
+  fill: var(--theme-color);
+}
+.parentClass .section-book#brand-archetype .sec-color-fill {
+  fill: var(--sec-color);
+}
+.parentClass .section-book#brand-archetype .bg-img {
   left: -220px;
   top: -200px;
 }
-.parentClass .section-book#archetype-book .bg-img2 {
+.parentClass .section-book#brand-archetype .bg-img2 {
   left: auto;
   right: 0px;
   top: 200px;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .bg-img2 {
+  .parentClass .section-book#brand-archetype .bg-img2 {
     right: -200px;
     top: 300px;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper {
+.parentClass .section-book#brand-archetype .archetype-wrapper {
   margin-top: 130px;
   margin-right: 98px;
   position: relative;
@@ -1367,70 +1373,80 @@ body[style*=theme-color]:has(.parentClass) {
   gap: 100px 0;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper {
+  .parentClass .section-book#brand-archetype .archetype-wrapper {
     margin-right: 0px;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:only-child {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:only-child {
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:only-child .img-wrapper {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:only-child .img-wrapper {
   width: 321px;
   height: 367px;
   margin: 0 auto 55px;
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper .archetype:only-child .img-wrapper {
+  .parentClass .section-book#brand-archetype .archetype-wrapper .archetype:only-child .img-wrapper {
     width: 50vw;
     height: 50vw;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:only-child .img-wrapper img {
-  width: 100%;
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:only-child .img-wrapper img,
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:only-child .img-wrapper svg {
+  max-width: 100%;
+  max-height: 100%;
   align-self: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin: 0 auto;
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) {
   max-width: 340px;
   display: block;
   float: left;
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) .img-wrapper {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .img-wrapper {
   width: 285px;
   height: 333px;
   margin: 0 auto;
   display: flex;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) .img-wrapper {
+  .parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .img-wrapper {
     width: 50vw;
     height: 50vw;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) .img-wrapper img {
-  width: 100%;
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .img-wrapper img,
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .img-wrapper svg {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: end;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) .content {
-  margin-top: -30px;
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .content {
+  margin-top: 30px;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child) .content {
+  .parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child) .content {
     margin-top: 0px;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child) {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child) {
   position: relative;
   margin-left: 120px;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child) {
+  .parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child) {
     margin-left: 0px;
     margin-top: 100px;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child)::before {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child)::before {
   content: "&";
   font-family: var(--mainFont);
   font-size: 100px;
@@ -1439,14 +1455,14 @@ body[style*=theme-color]:has(.parentClass) {
   top: 90px;
 }
 @media screen and (max-width: 992px) {
-  .parentClass .section-book#archetype-book .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child)::before {
+  .parentClass .section-book#brand-archetype .archetype-wrapper .archetype:not(:only-child):not(:only-child):not(:first-child)::before {
     font-size: 50px;
     left: 50%;
     transform: translateX(-50%);
     top: -90px;
   }
 }
-.parentClass .section-book#archetype-book .archetype-wrapper .archetype .sample {
+.parentClass .section-book#brand-archetype .archetype-wrapper .archetype .sample {
   font-weight: 700;
 }
 .parentClass .section-book#proportions-book .content {

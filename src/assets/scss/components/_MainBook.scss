@@ -28,14 +28,23 @@
     &#space-book,
     &#palette-book,
     &#fonts-book,
-    &#archetype-book {
+    &#brand-archetype {
         .content {
             max-width: 660px;
         }
 
     }
 
-    &#archetype-book {
+    &#brand-archetype {
+
+        .main-color-fill {
+            fill: var(--theme-color);
+        }
+
+        .sec-color-fill {
+            fill: var(--sec-color);
+        }
+
         .bg-img {
             left: -220px;
             top: -200px;
@@ -84,9 +93,13 @@
                         }
 
 
-                        img {
-                            width: 100%;
+                        img,
+                        svg {
+                            max-width: 100%;
+                            max-height: 100%;
                             align-self: center;
+                            object-fit: fill;
+                            margin: 0 auto;
                         }
                     }
                 }
@@ -108,13 +121,17 @@
                             height: 50vw;
                         }
 
-                        img {
-                            width: 100%;
+                        img,
+                        svg {
+                            max-width: 100%;
+                            max-height: 100%;
+                            align-self: end;
+                            object-fit: fill;
                         }
                     }
 
                     .content {
-                        margin-top: -30px;
+                        margin-top: 30px;
 
                         @media screen and (max-width: 992px) {
                             margin-top: 0px;
@@ -209,7 +226,7 @@
         position: absolute !important;
         z-index: 10 !important;
         bottom: 20px;
-        width: 200px ;
+        width: 200px;
         left: 50%;
         transform: translateX(-50%);
 
@@ -218,7 +235,8 @@
             width: 100px;
             bottom: 0px;
         }
-        img{
+
+        img {
             width: 100% !important;
             height: auto;
         }
