@@ -41,9 +41,9 @@
     </div>
     <div class="bg-img bg-img2 right-0 top-0">
       <svg
-        width="563"
-        height="567"
-        viewBox="0 0 563 567"
+        width="619"
+        height="624"
+        viewBox="0 0 619 624"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
